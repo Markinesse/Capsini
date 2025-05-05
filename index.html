@@ -2,22 +2,72 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Магазин Capsini</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #cc0000;
+      color: white;
       text-align: center;
-      padding: 50px;
-      background-color: #f7f7f7;
+      padding: 30px;
     }
     h1 {
-      color: #cc0000;
+      margin: 0;
+    }
+    .content {
+      text-align: center;
+      padding: 20px;
+    }
+    .product {
+      display: inline-block;
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+      width: 200px;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #222;
+      color: white;
     }
   </style>
 </head>
 <body>
-  <h1>Добро пожаловать в магазин Capsini!</h1>
-  <p>Скоро здесь появится каталог наших лучших перчиков 🌶️</p>
+
+  <header>
+    <h1>Добро пожаловать в Capsini!</h1>
+    <p>Лучшие перцы для вашего вкуса!</p>
+  </header>
+
+  <div class="content">
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Перец 1">
+      <h3>Перец Халапеньо</h3>
+      <p>Среднеострый, идеально подходит для соусов и салатов.</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Перец 2">
+      <h3>Перец Скотч Бонет</h3>
+      <p>Очень острый, с насыщенным вкусом.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Capsini. Все права защищены.</p>
+  </div>
+
 </body>
 </html>
-
